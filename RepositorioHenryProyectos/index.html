@@ -1,14 +1,70 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Mi Primer Sitio Web</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Henry Security SAS — Seguridad personalizada y efectiva</title>
+  <meta name="description" content="Protegemos tus datos y potenciamos tu confianza. Generador de contraseñas, caja fuerte, monitoreo de actividad y gestión de usuarios.">
+  <meta name="theme-color" content="#0f0f0f">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
 
-      <link rel="stylesheet" type="text/css" href="styles.css">
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="#" aria-label="Henry Security SAS - inicio">
+        <img src="assets/logoNegro-henry.png" alt="Logo Henry" width="120" height="32" decoding="async" fetchpriority="high">
+      </a>
 
-   </head>
-   <body>
-      <!-- Contenido de la página va aquí-->
-   </body>
+      <nav aria-label="Principal">
+        <ul class="nav">
+          <li><a class="nav__link is-active" aria-current="page" href="#">Home</a></li>
+          <li><a class="nav__link" href="#">Generar contraseña</a></li>
+          <li><a class="nav__link" href="#">Caja Fuerte</a></li>
+          <li><a class="nav__link" href="#">Monitoreo de actividad</a></li>
+          <li><a class="nav__link" href="#">Gestión de usuarios</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero__copy">
+        <p class="badge">Seguridad personalizada y efectiva</p>
+
+        <h1 id="hero-title" class="hero__title">
+          Henry
+        </h1>
+
+        <br>
+
+        <h1 id="hero-title" class="hero__title">
+          <mark class="highlight">Security SAS</mark>
+        </h1>
+
+        <br>
+        
+        <p class="lead">
+          Protegemos tus datos, impulsamos tu confianza.
+        </p>
+      </div>
+
+      <figure class="hero__media" aria-label="Ilustración de seguridad">
+        <div class="media-card" role="img" aria-label="Tarjeta negra con candado y escudo">
+          <img class="media-card__img" src="assets/imagen-candado.png" alt="Candado, escudo y ventana de navegador" width="740" height="740" loading="eager" decoding="async" fetchpriority="high">
+        </div>
+      </figure>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© Henry Security SAS by Enzo Aguirre</small>
+    </div>
+  </footer>
+</body>
 </html>
